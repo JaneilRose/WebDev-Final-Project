@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>About Us | LeafyLoom🍃</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">.LeafyLoom🍃</h2>
+            <nav class="navbar">
+                <a href="homepage.php">HOME</a>
+                <a href="#" class="active">ABOUT US</a>
+                <a href="stories.html">STORIES</a>
+                <a href="author.html">AUTHOR</a>
+                <a href="login.php" class="active1">LOG OUT</a>
+            </nav>  
+    </header>
+    <div class="about"><h2>About LeafyLoom🍃</h2> <br>
+        <h3>Welcome to LeafyLoom, a haven for book enthusiasts and knowledge seekers alike! Our passion for literature and the belief that reading should be accessible to everyone led us to create this digital sanctuary.</h3></div>
+    <section class = "parallax">
+        <img src="birds-csldallas-14.png" id="birds">
+        <img src="clipart-mountain-background-1.png" id="mount">  
+        <img src="R (1).png" id="forest"  >   
+        
+    </section>  
+     
+    <section class="sec">
+        <br>
+        <h2>LeafyLoom🍃</h2>
+        <h3>Your Gateway to Boundless Stories!</h3><br><br>
+        <h4>Our Story</h4>
+        <p>LeafyLoom began as a humble idea—a vision to democratize literature and provide a platform where readers could explore the vast realms of written expression without financial constraints. We understand the transformative power of words and the magic they bring into our lives.<br>
+        </p><br>
+        <h4>Our Mission</h4>
+        <p>Our mission is simple yet profound: to make quality books accessible to all, free of charge. We strive to break down the barriers that limit access to literature, fostering a community that celebrates the joy of reading and learning. At LeafyLoom, we believe that knowledge is a universal right, and books are the key to unlocking it.</p><br>
+        <h4>What Sets Us Apart</h4>
+        <p>•Diverse Collection: Our virtual shelves boast a diverse and carefully curated collection of books spanning genres, eras, and cultures. We're committed to offering something for every reader, ensuring a rich and varied literary experience. <br>
+            •User-Friendly Interface: Navigating LeafyLoom is a breeze. Our intuitive design and search features make it easy for users to discover, explore, and enjoy their favorite reads seamlessly.
+            •Community Focus: We're more than just a collection of free books. LeafyLoom is a community where readers connect, share recommendations, and celebrate the joy of reading together. Join us in building a vibrant literary space!</p>   <br>         
+        <h4>Join Us on the Journey</h4>
+        <p>As we embark on this literary journey, we invite you to be a part of our growing community. Whether you're a seasoned bibliophile or a casual reader, LeafyLoom is here to ignite your imagination, spark your curiosity, and accompany you on countless literary adventures. <br><br>
+            Thank you for being a part of LeafyLoom. Together, let's turn the page to a world where books are freely accessible, and the love for reading knows no bounds. <br><br>
+            Happy reading! <br><br>
+            -Unthorned_Rose</p>            
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h4>Call: <div class="underline"><span></span></div></h4><br><br>
+                <p>0999-526-0178</p>
+            </div>
+            <div class="col1">
+                <h4>Follow: <div class="underline"><span></span></div> </h4><br><br>
+                <a href="#" style="--i:1;"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.facebook.com/janeilrose.formoso" style="--i:2;"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" style="--i:3;"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <div class="col2">
+                <h4>Email: <div class="underline"><span></span></div></h4><br><br> 
+                <p>formosojaneil@gmail.com</p>
+            </div>  
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="copyright"><h4>©2023 by .LeafyLoom🍃 - All Rights Reserved</h4></div>
+    </footer>
+    
+
+<script>
+
+    let birds = document.getElementById('birds');
+    let forest = document.getElementById('forest');
+    let mount = document.getElementById('mount');
+
+
+    window.addEventListener('scroll', function() {
+        let value = window.scrollY;
+        birds.style.left = value  + 'px';
+        mount.style.left = value + 'px';
+
+    });
+</script>
+    
+</body>
+</html>

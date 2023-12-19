@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="author.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Author | LeafyLoom🍃</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">.LeafyLoom🍃</h2>
+            <nav class="navbar">
+                <a href="homepage.php">HOME</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="stories.html" >STORIES</a>
+                <a href="#"class="active">AUTHOR</a>
+                <a href="login.php" class="active1">LOG OUT</a>
+            </nav>  
+    </header>
+
+    <section class = "parallax">
+        <img src="birds-csldallas-14.png" id="birds">
+        <img src="clipart-mountain-background-1.png" id="mount">  
+        <img src="R (1).png" id="forest"  >
+    </section>   
+    <section class="content">
+        <div class="intro">
+            <img src="403402687_1796333900839851_1898296091717242052_n.jpg">
+            <div class="intro-text">
+                <h1>About the Author🍃</h1>
+                <h5>Unthorned_Rose</h5>
+                <p><h4>Introducing Janeil Rose Curacha Formoso, the imaginative wordsmith behind the enchanting pen name "Unthorned_Rose." At a mere 18 years old, Janeil hails from the vibrant city of Cebu, Philippines, where her creativity is nurtured by the rich tapestry of culture and nature that surrounds her.
+                    <br>
+                    <br>
+                    In the realm of literature, Janeil is a budding author who effortlessly weaves together the threads of fantasy, romance, sci-fi, drama, and tragedy to create narratives that transport readers to otherworldly dimensions. Her writing reflects a depth of emotion and a keen understanding of the human experience, exploring the intricate dance between love and loss, the fantastical and the mundane.
+                    <br>
+                    <br>
+                    Janeil's literary universe is a captivating fusion of magical landscapes, futuristic technologies, and complex characters navigating the delicate balance between heart-wrenching drama and the allure of romance. Through her pen, she crafts tales that resonate with readers, inviting them to explore the limitless boundaries of their imagination.
+                    <br>
+                    <br>
+                    As "Unthorned_Rose," Janeil has embarked on a literary journey that promises to leave an indelible mark on the world of fiction. With a unique blend of genres, she invites readers to lose themselves in the ethereal worlds she creates, where every page unfolds like a mesmerizing tapestry of emotions, making her a promising voice in the ever-evolving landscape of modern storytelling. Keep an eye out for Janeil Rose Curacha Formoso as she continues to blossom and enchant with her pen, inviting readers to experience the magic woven into each carefully crafted word.</h4></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h4>Call: <div class="underline"><span></span></div></h4><br><br>
+                <p>0999-526-0178</p>
+            </div>
+            <div class="col1">
+                <h4>Follow: <div class="underline"><span></span></div> </h4><br><br>
+                <a href="#" style="--i:1;"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.facebook.com/janeilrose.formoso" style="--i:2;"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" style="--i:3;"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <div class="col2">
+                <h4>Email: <div class="underline"><span></span></div></h4><br><br> 
+                <p>formosojaneil@gmail.com</p>
+            </div>  
+        </div>
+        <br>
+        <hr>
+        <br>
+        <p class="copyright"><h4>©2023 by .LeafyLoom🍃 - All Rights Reserved</h4></p>
+    </footer>
+    
+
+<script>
+
+    let birds = document.getElementById('birds');
+    let forest = document.getElementById('forest');
+    let mount = document.getElementById('mount');
+    
+    window.addEventListener('scroll', function() {
+        let value = window.scrollY;
+        birds.style.left = value  + 'px';
+        mount.style.left = value + 'px';
+    });
+</script>
+    
+</body>
+</html>
